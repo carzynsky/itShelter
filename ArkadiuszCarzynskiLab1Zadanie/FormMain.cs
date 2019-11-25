@@ -540,10 +540,10 @@ namespace ArkadiuszCarzynskiLab1Zadanie
                 if(buildings[1])
                 timerFood.Start();
                 if(buildings[2])
-                timerScience.Start();
+                timerWater.Start();
                 timerTimeInGame.Start();
                 if(buildings[3])
-                timerWater.Start();
+                timerScience.Start();
             }
             // sprawdzenie wygranej
             if (powerGeneratorLevel == 10 && kitchenLevel == 10 && waterTreatmentLevel == 10 && scienceRoomLevel == 10 && powerGeneratorWorkers == 10 && kitchenWorkers == 10 && waterTreatmentWorkers == 10 && scienceRoomWorkers == 10)
